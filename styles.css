@@ -1,0 +1,270 @@
+/* common applyed styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+/* header section styles */
+.flower1 {
+  width: 350px;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  align-items: center;
+  background-color: rgba(202, 82, 108, 0.1);
+  background-size: cover;
+
+}
+
+.banner-title {
+  color: #272727;
+  font-size: 60px;
+  font-weight: bold;
+  padding-left: 100px;
+  padding-top: 195px;
+}
+
+.banner-description {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 100px;
+}
+
+
+.primary-btn {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: #E55473;
+  border: 0px;
+  color: white;
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+.banner-pic {
+  padding-right: 100px;
+  padding-top: 60px;
+}
+ /* feature section  */
+.flower-container {
+  height: 100vh;
+  text-align: center;
+}
+
+.flower-title {
+  color: #272727;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 40px;
+}
+
+.flower-description {
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+.picture {
+  display: flex;
+  margin-left: 250px;
+  margin-top: 70px;
+  gap: 50px;
+}
+
+.box1 {
+  width: 240px;
+  height: 330px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+
+}
+
+.box2 {
+  width: 240px;
+  height: 330px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+
+}
+
+.box3 {
+  width: 240px;
+  height: 330px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+
+}
+
+
+/* hot deal section  */
+.flawer2 {
+  width: 180px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.deal-conatainer {
+  height: 520px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(202, 82, 108, 0.1);
+  background-size: cover;
+}
+
+.deal-title {
+  color: #272727;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.deal-description {
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.btn-primary {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: #E55473;
+  border: 0px;
+  color: white;
+  font-size: 18px;
+  margin-left: 230px;
+  margin-bottom: 180px;
+  align-items: center;
+
+}
+
+/* insta section  */
+.main-div {
+  margin-left: 240px;
+  margin-right: 240px;
+  align-items: center;
+}
+
+.insta-title {
+  margin-top: 60px;
+  color: #272727;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800
+}
+
+.insta-description {
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.box {
+  display: flex;
+  width: 20%;
+  gap: 20px;
+
+}
+
+img {
+  width: 200px;
+  margin-top: 30px;
+
+}
+
+/* latest deal section */
+
+.coupon-conatainer {
+  margin-top: 50px;
+  text-align: center;
+  background-image: url('images/Untitled-1.png');
+  background-repeat: no-repeat;
+  width: 850px;
+  height: 350px;
+  margin-left: 245px;
+
+
+}
+
+.latest-title {
+  color: #272727;
+  font-size: 20px;
+  font-weight: 800;
+  padding-top: 80px;
+}
+
+.title-description {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 15px;
+  font-weight: 400px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.email {
+  width: 500px;
+  height: 30px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.button {
+  width: 80px;
+  height: 34px;
+  border: 0px;
+  border-radius: 10px;
+  background: #E55473;
+  color: #FFF;
+  font-size: 15px;
+}
+/* footer styles */
+span {
+  color: #E55473;
+}
+
+.footer-container {
+  background-color: black;
+  width: 1350px;
+  height: 250px;
+
+}
+
+.footer-info {
+  color: #FFF;
+  text-align: center;
+}
+
+.footer-tile {
+  font-size: 45px;
+  font-weight: 800px;
+  padding-top: 50px;
+}
+
+.footet-description {
+  font-size: 15px;
+  font-weight: 400px;
+  padding-top: 10px;
+}
+
+h6 {
+  color: rgba(255, 255, 255, 0.40);
+  font-size: 12px;
+  font-weight: 400px;
+  padding-top: 30px;
+}
