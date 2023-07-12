@@ -170,7 +170,7 @@
 
 }
 
-/* insta section  */
+/* insta section & best selling part styles */
 .main-div {
   margin-left: 240px;
   margin-right: 240px;
@@ -178,7 +178,7 @@
 }
 
 .insta-title {
-  margin-top: 60px;
+  margin-top: 50px;
   color: #272727;
   text-align: center;
   font-size: 25px;
@@ -190,7 +190,7 @@
   text-align: center;
   font-size: 15px;
   font-weight: 400;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .box {
@@ -209,15 +209,13 @@ img {
 /* latest deal section */
 
 .coupon-conatainer {
-  margin-top: 50px;
+  margin-top: 90px;
   text-align: center;
   background-image: url('images/Untitled-1.png');
   background-repeat: no-repeat;
   width: 850px;
   height: 350px;
   margin-left: 245px;
-
-
 }
 
 .latest-title {
